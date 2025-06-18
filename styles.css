@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFF00; /* Yellow background color */
+}
+
+header {
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+#comment-form {
+    width: 500px;
+    margin: 20px auto;
+}
+
+#comment-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#comment-form input, #comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#comments-container {
+    width: 500px;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+}
